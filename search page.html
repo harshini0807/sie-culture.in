@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Search Engine</title>
+ 
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="SIEFINAL_LOGO.png" alt="Logo" style="width: 77.41px; height: 50px;">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+<section class="search-container">
+      <form action="#" method="GET" class="search-form">
+        <input type="text" name="search" placeholder="Search..." class="search-input">
+        <button type="submit" class="search-button">Search</button>
+    </form>
+     
+     <div class="filter">
+        <label for="filter">Filter:</label>
+        <select id="filter">
+            <option value="option1">Entrepreneur</option>
+            <option value="option2">Investor</option>
+        </select>
+    </div>
+    
+</section>
+
+<footer>
+    <p>&copy;Coprights by SIE Culture.</p>
+</footer>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(building2.png);
+    background-attachment: fixed;
+}
+header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    margin-left: 1350px; 
+}
+
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    text-align: left;
+    margin-left: 20px;
+    
+}
+nav ul li a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: pink;
+}
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.search-container h2 {
+    color: #333;
+}
+.search-form {
+    display: inline-block;
+}
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+.search-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.search-button:hover {
+    background-color: #45a049;
+}
+
+.search-container .filter {
+  --first-color: rgb(247, 242, 242);
+    margin-top: 40px;
+  margin-right: 20px;
+}
+.filter{
+    color: #f2efef;
+}
+.search-container .icons {
+  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.search-container .icon {
+    margin: 0 10px;
+    cursor: pointer;
+} 
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+
+</body>
+</html>
